@@ -32,7 +32,7 @@ Program to print the contact name and phone number using content providers.
 Developed by: Sudharsanam R K
 Registeration Number : 212222040163
 ```
-# MainActivity.java 
+## MainActivity.java 
 ```java
 package com.example.contentprovider;
 
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-# activity_main.xml
+## activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-# AndroidManifest.xml
+## AndroidManifest.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
