@@ -1,16 +1,15 @@
-
 # Ex.No:5 Create Your Own Content Providers to get Contacts details.
 
 
-## AIM:
+## AIM
 
 To create your own content providers to get contacts details using Android Studio.
 
-## EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED
 
 Android Studio(Latest Version)
 
-## ALGORITHM:
+## ALGORITHM
 
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
@@ -26,20 +25,18 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## PROGRAM
 ```
 Program to print the contact name and phone number using content providers.
 Developed by: Sudharsanam R K
 Registeration Number : 212222040163
 ```
-## MainActivity.java 
+## In MainActivity.java 
 ```java
 package com.example.contentprovider;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-
 import android.content.ContentResolver;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -103,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-## activity_main.xml
+## In activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -145,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-## AndroidManifest.xml
+## In AndroidManifest.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
